@@ -1,0 +1,18 @@
+{
+    "name": "rollup-test",
+    "version": "0.0.0",
+    "main": "dist/index.js",
+    "scripts": {
+        "rollup": "rollup --config"
+    },
+    "author": "Jim Neuendorf <jim.neuendorf@gmx.de>",
+    "license": "MIT",
+    "dependencies": {
+        "ebnf": "^1.5.0",
+        "rollup": "^0.55.3"
+    },
+    "devDependencies": {
+        "rollup-plugin-commonjs": "^8.3.0",
+        "rollup-plugin-node-resolve": "^3.0.2"
+    }
+}
